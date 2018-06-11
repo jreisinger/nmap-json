@@ -1,4 +1,7 @@
 ```
+docker login
 docker build -t nmap-json .
-docker run nmap-json scanme.nmap.org
+docker tag nmap-json reisinge/nmap-json
+docker push reisinge/nmap-json
+docker run reisinge/nmap-json scanme.nmap.org
 ```
