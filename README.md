@@ -5,6 +5,7 @@ docker build -t nmap-json .
 docker login
 docker tag nmap-json reisinge/nmap-json
 docker push reisinge/nmap-json
+```
 
 run
 
